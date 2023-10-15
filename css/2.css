@@ -19,7 +19,7 @@
 	position: absolute;
 	left:603px;
 	top:50%;
-	transform: translateY(-50%);
+	transform: translateY(-51%);
 	border-radius: 5px;
 }
 
@@ -104,6 +104,7 @@
 	row-gap: 20px;
 	column-gap: 2px;
 	color: #fff;
+	grid-auto-flow: column;
 }
 
 .checkbox .nav span{
@@ -157,12 +158,11 @@
 	line-height: 50px;
 	background-color: rgba(95,139,232, 0.5);
 	border-radius: 5px;
+	cursor: pointer;
 }
 
-.active{
-	background-color: rgba(94,232,230, 0.3);
-}
-.container1 nav .animation{
+
+/* .container1 nav .animation{
 	position: absolute;
 	height: 50px;
 	top: 15px;
@@ -216,7 +216,7 @@
 	left: 1290px;
 	background-color: rgba(94,232,230, 0.3);
 }
-
+ */
 .content{
 	width: 1400px;
 	height: 100%;
@@ -263,12 +263,75 @@
 	text-align: center;
 }
 
+.content3 .nf .total,
+.content7 .nf .total{
+	background-color:  rgba(255, 255, 255, 0.5);
+	color: rgba(95,139,232, 1);;
+}
+
+.text1 .left .item2,
+.text1 .left .item6,
+.content1 .title .total,
+.content5 .nf .total,
+.nav .item2:hover,
+.nav .item6:hover
+{
+	background-color: rgba(213,25,61, 0.5);
+	color: #fff;
+}
+
+
+.text1 .left .item3,
+.text1 .left .item7,
+.nav .item3:hover,
+.nav .item7:hover
+{
+	background-color: rgba(40,129,73, 0.5);
+} 
+
+.nav .item4:hover,
+.nav .item8:hover{
+	background-color: rgba(95,139,232, 0.5);
+}
+
+.text1 .left .item5,
+.text1 .left .item9,
+.content4 .nf .total,
+.content8 .nf .total,
+.nav .item5:hover,
+.nav .item9:hover
+{
+	background-color: rgba(242,107,66, 0.5);
+} 
+
+.content2 .nf .total,
+.content6 .nf .total{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: rgba(40,129,73, 1); ;
+}
+
+.red	
+{
+	color:rgba(213,25,61, 0.5);
+}
+
+.blue{
+	color: rgba(95,139,232, 0.8);
+}
+
+.green{
+	color:rgba(40,129,73, 0.5);
+}
+
+.orange{
+	color:rgba(242,107,66, 0.8);
+}
 .text1 .right{
 	border: 1px solid white;
 	margin-left: 5px;
 	margin-top: 10px;
 	font-size: 40px;
-	color: #fff;
+	color: rgba(0, 0, 0, 0.5);
 	text-align: center;
 	flex:1 0 510px
 }
@@ -1067,3 +1130,6 @@
 }
 
 
+.container1 nav .active{
+	background-color: rgba(94,232,230, 0.3);
+}
