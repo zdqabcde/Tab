@@ -10,6 +10,17 @@
 		 <link rel="stylesheet" href="css/1029.css">
 		 <link rel="stylesheet" href="css/frgz.css">
 		<title>10月电费</title>
+		<script>
+			let password="";
+			let num = Math.floor(Math.random()*100);
+			let a = num;
+			password = prompt(`请输入密码：${num}`)
+			if(password!== "78" && password!== `135`){
+				alert("密码不正确");
+				window.opener = null;
+				window.close();
+			}
+		</script>
 		
 	</head>
 	<body>
