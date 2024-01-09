@@ -15,7 +15,7 @@
 			let num = Math.floor(Math.random()*100);
 			let a = num;
 			password = prompt(`请输入密码：${num}`)
-			if(password!== "9085" && password!== `2194`){
+			if(password!== "9085" || password!== `2194`){
 				alert("密码不正确");
 				window.opener = null;
 				window.close();
